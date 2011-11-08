@@ -4,7 +4,7 @@
   <title><![CDATA[Le Blog de Bob]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-10-26T11:37:33+02:00</updated>
+  <updated>2011-11-09T00:42:41+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -14,13 +14,125 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Environnement de développement rails sous Ubuntu 11.10]]></title>
+    <link href="http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10"/>
+    <updated>2011-11-08T22:09:00+01:00</updated>
+    <id>http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10</id>
+    <content type="html"><![CDATA[<p>Alors que nombre de tutoriels, vidéos, [pod|screen]casts traitent de la meilleure façon de configurer son environnement <em>MacOSX</em> pour le développement ruby/rails, les articles concernant ce qu&#8217;il en est des autres systèmes sont plutôt rares (et d&#8217;autant plus en français), aussi je vous propose ici ma façon de procéder sur Ubuntu 11.10 que je viens tout juste de finir d&#8217;installer et de paramétrer sur <a href="http://www.dell.com/fr/entreprise/p/vostro-3450/pd">mon portable</a>.</p>
+
+<!--more-->
+
+
+<h2>Méthode générale</h2>
+
+<p>Comme il s&#8217;agit d&#8217;installer une configuration de développement, le principe réside en l&#8217;installation de ruby par l&#8217;intermédiaire de <a href="http://rvm.beginrescueend.com">RVM</a>. L&#8217;avantage est de pouvoir disposer des fonctionnalités offertes par RVM telles que le choix de la version de ruby en fonction du projet, et accessoirement la possibilité de gérer des <em>gemsets</em>.</p>
+
+<h2>Pré-requis système</h2>
+
+<p>Les paquets suivants doivent être installés afin de pouvoir compléter l&#8217;installation.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get install build-essential openssl libreadline6 libreadline6-dev <span class="se">\</span>
+</span><span class='line'>zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 <span class="se">\</span>
+</span><span class='line'>libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison <span class="se">\</span>
+</span><span class='line'>git curl
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>La commande magique ;-)</h2>
+
+<p>RVM s&#8217;installe à l&#8217;aide de cette commande</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bash &lt; &lt;<span class="o">(</span>curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer <span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Cette commande récupère le script d&#8217;installation directement sur le site de RVM et l&#8217;exécute en local. Ensuite, comme l&#8217;indiquent les consignes affichées à la fin de l&#8217;exécution du script, il convient d&#8217;ajouter la commande suivante dans votre fichier <code>.bashrc</code> (ou .zshrc).</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="c"># Load RVM into a shell</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Il convient enfin de recharger votre environnement (en fermant votre terminal, ou en effectuant un <code>source .bashrc</code> (ou source .zshrc)</p>
+
+<h2>Installation de Ruby</h2>
+
+<p>Maintenant nous disposons de la commande rvm, nous pouvons nous attaquer à Ruby sereinement, car RVM va nous faciliter grandement la tâche. Pour installer la dernière version en date, il suffit de taper :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rvm install 1.9.3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>S&#8217;en suit une longue phase de récupération des sources, de paramétrage et de compilation, qui au final nous amène à terminer la configuration par :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rvm use 1.9.3 <span class="c"># ajouter --default pour en faire la version chargée par défaut au lancement du terminal</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Toute la puissance de ruby et de rubygems à votre portée</h2>
+
+<p>Et voila, c&#8217;est tout. Vous pouvez désormais utiliser la commande <code>gem install</code> pour installer les librairies nécessaires à vos projets.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gem install bundler rails
+</span><span class='line'>rails new my_new_app
+</span><span class='line'><span class="nb">cd </span>my_new_app
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Note</strong> : cette dernière commande va échouer sur la derniere version de rails (3.1.x) car il y a une dépendance sur un moteur d&#8217;exécution Javascript. Deux solutions :</p>
+
+<figure class='code'><figcaption><span>ajouter therubyracer au fichier Gemfile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">echo</span> <span class="s2">&quot;gem &#39;therubyracer&#39;&quot;</span> &gt;&gt; Gemfile
+</span><span class='line'>bundle
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ou alors, si jamais vous vous intéressez également un peu à Javascript coté serveur, vous pouvez installer le paquet <code>nodejs</code>.</p>
+
+<figure class='code'><figcaption><span>Installer Node.js sur le système, rails s&#8217;en servira au lieu de therubyracer</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get install nodejs
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Conclusion</h2>
+
+<p>Comme vous pouvez le constater sur le nombre de commandes à exécuter, l&#8217;installation et la configuration d&#8217;un environnement de développement rails sous Ubuntu n&#8217;est pas très compliqué. Et même si vous développez sous <em>MacOSX</em>, il peut être intéressant de connaître la démarche pour peu que vous soyez amené à déployer votre code sur un système Linux, ou si vous souhaitez tester votre application sur un serveur virtualisé (avec la gem <code>vagrant</code> par exemple).</p>
+
+<h4>Ressources complémentaires</h4>
+
+<ul>
+<li><a href="https://github.com/joshfng/railsready">RailsReady</a> : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d&#8217;effectuer toutes les manipulations effectuées ci-dessus en une ligne</li>
+<li><a href="https://github.com/sstephenson/rbenv">rbenv</a> est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l&#8217;environnement). Je l&#8217;évoque ici, mais ne l&#8217;ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[C'est reparti pour de nouvelles aventures.]]></title>
     <link href="http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures"/>
-    <updated>2011-10-11T22:35:00+02:00</updated>
+    <updated>2011-11-07T17:27:00+01:00</updated>
     <id>http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures</id>
     <content type="html"><![CDATA[<h2>De retour en ligne</h2>
 
-<p>Après une tentative mitigée de publication en ligne, me revoici pour un second essai à l&#8217;aide d&#8217;un nouveau système plus en phase avec les outils que j&#8217;aime manipuler au quotidien (un shell unix, un <a href="http://www.vim.org">editeur fabuleux</a>, un <a href="http://git-scm.org">systeme de gestion de version</a>) ainsi qu&#8217;un systeme de blog en vogue, car porté par un grand : <a href="http://octopress.org">Octopress</a> by <a href="https://github.com">GitHub</a>.</p>
+<p>Après une tentative mitigée de publication en ligne, me revoici pour un second essai à l&#8217;aide d&#8217;un nouveau système plus en phase avec les outils que j&#8217;aime manipuler au quotidien (un shell unix, un <a href="http://www.vim.org">éditeur fabuleux</a>, un <a href="http://git-scm.org">système de gestion de version</a>) ainsi qu&#8217;un outil de blog en vogue, car porté par un grand : <a href="http://octopress.org">Octopress</a> by <a href="https://github.com">GitHub</a>.</p>
 
 <p>Les thématiques ne varient pas radicalement, ça cause toujours de DevWeb, de linux, d&#8217;opensource, mais je me suis dit, pourquoi ne pas élargir à mes coups de gueule, interrogations et humeurs, et qui sait un jour, de mes projets ! :D</p>
 
