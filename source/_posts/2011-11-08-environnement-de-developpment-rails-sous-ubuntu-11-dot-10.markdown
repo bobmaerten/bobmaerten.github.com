@@ -2,6 +2,7 @@
 layout: post
 title: "Environnement de développement rails sous Ubuntu 11.10"
 date: 2011-11-08 22:09
+updated : 2011-11-09 10:09
 comments: true
 categories: [Ubuntu, Développement, Rails]
 ---
@@ -66,3 +67,4 @@ Comme vous pouvez le constater sur le nombre de commandes à exécuter, l'instal
 #### Ressources complémentaires
 * [RailsReady](https://github.com/joshfng/railsready) : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d'effectuer toutes les manipulations effectuées ci-dessus en une ligne.
 * [rbenv](https://github.com/sstephenson/rbenv) est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l'environnement). Je l'évoque ici, mais ne l'ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.
+* [La documentation Ubuntu officielle](http://doc.ubuntu-fr.org/rubyonrails) en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d'installation de gem par <code>sudo</code>.
