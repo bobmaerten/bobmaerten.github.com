@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Rails | Le Blog de Bob]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-11-09T00:42:41+01:00</updated>
+  <updated>2011-11-09T10:14:24+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -88,8 +88,9 @@ rails s
 <h4>Ressources complémentaires</h4>
 
 <ul>
-<li><a href="https://github.com/joshfng/railsready">RailsReady</a> : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d'effectuer toutes les manipulations effectuées ci-dessus en une ligne</li>
+<li><a href="https://github.com/joshfng/railsready">RailsReady</a> : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d'effectuer toutes les manipulations effectuées ci-dessus en une ligne.</li>
 <li><a href="https://github.com/sstephenson/rbenv">rbenv</a> est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l'environnement). Je l'évoque ici, mais ne l'ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.</li>
+<li><a href="http://doc.ubuntu-fr.org/rubyonrails">La documentation Ubuntu officielle</a> en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d'installation de gem par <code>sudo</code>.</li>
 </ul>
 
 ]]></content>
