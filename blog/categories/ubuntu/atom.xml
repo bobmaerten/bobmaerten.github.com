@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ubuntu | Le Blog de Bob]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-11-09T10:14:24+01:00</updated>
+  <updated>2011-11-10T15:29:44+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -34,7 +34,7 @@
 sudo apt-get install build-essential openssl libreadline6 libreadline6-dev \
 zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 \
 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison \
-git curl
+git curl libssl0.9.8
 </code></p>
 
 <h2>La commande magique ;-)</h2>
