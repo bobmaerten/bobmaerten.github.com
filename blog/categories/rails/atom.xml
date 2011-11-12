@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Rails | Le Blog de Bob]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-11-10T15:29:44+01:00</updated>
+  <updated>2011-11-12T16:22:11+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -34,7 +34,7 @@
 sudo apt-get install build-essential openssl libreadline6 libreadline6-dev \
 zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 \
 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison \
-git curl libssl0.9.8
+git curl libssl0.9.8 libpq-dev
 </code></p>
 
 <h2>La commande magique ;-)</h2>
@@ -93,6 +93,11 @@ rails s
 <li><a href="http://doc.ubuntu-fr.org/rubyonrails">La documentation Ubuntu officielle</a> en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d'installation de gem par <code>sudo</code>.</li>
 </ul>
 
+
+<h1>Mises à jour de cet article</h1>
+
+<p>2011-11-12 : Ajout d'un prérequis (libpq-dev) requis par l'hébergement heroku
+2011-11-09 : Ajout d'un prérequis (libssl) pour permettre à certaines application rails 3.0.x de se lancer</p>
 ]]></content>
   </entry>
   
