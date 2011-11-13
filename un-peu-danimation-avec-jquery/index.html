@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Le Blog de Bob</title>
+  <title>Un peu d'animation avec jQuery - Le Blog de Bob</title>
   <meta name="author" content="Bob Maerten">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://bobmaerten.github.com">
+  <link rel="canonical" href="http://bobmaerten.github.com/un-peu-danimation-avec-jquery">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -72,15 +72,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/un-peu-danimation-avec-jquery">Un Peu D&#8217;animation Avec jQuery</a></h1>
+      <h1 class="entry-title">Un Peu D'animation Avec jQuery</h1>
     
     
       <p class="meta">
@@ -103,72 +100,76 @@
   </header>
 
 
-  <div class="entry-content"><p>Dans le cadre d&#8217;un projet en cours, je souhaitais placer une image assez grande sur une page d&#8217;information, mais je trouvais que cela mettait en vrac la mise en page. Aussi, je me suis demandé ce que cela pourrait donner si cette image s&#8217;affichait de manière réduite mais agrémentée d&#8217;un défilement vertical.</p>
+<div class="entry-content"><p>Dans le cadre d&#8217;un projet en cours, je souhaitais placer une image assez grande sur une page d&#8217;information, mais je trouvais que cela mettait en vrac la mise en page. Aussi, je me suis demandé ce que cela pourrait donner si cette image s&#8217;affichait de manière réduite mais agrémentée d&#8217;un défilement vertical.</p>
 
+<!--more-->
+
+
+<p>L&#8217;affichage se présente donc de la sorte : une image englobée dans un calque qui est plus petit, et donc tronquée. L&#8217;idée est de faire défiler verticalement l&#8217;image pour la dévoiler au fur et à mesure :</p>
+
+<p><img src="https://lh5.googleusercontent.com/-Z6Vkpu1xtdw/TsA9sQUDMxI/AAAAAAAAA-Y/ysQhdLEZfWA/s986/1321221551960.png" alt="Mon super Site" /></p>
+
+<p>Voici le code correspondant.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.html'></script>
+<noscript><pre><code>&lt;div class=&quot;affiche&quot;&gt;
+  &lt;img id=&quot;pic&quot; src=&quot;http://placehold.it/940x560&quot; /&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Mon Super Site&lt;/h1&gt;
+    &lt;p&gt;ou on y cause de tout et de rien...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></noscript></div>
+
+
+<p>Notez l&#8217;utilisation de <code>overflow:hidden</code> afin d&#8217;empêcher que le <code>div</code> ne prenne la taille de l&#8217;image.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.css'></script>
+<noscript><pre><code>.affiche {
+  position: relative;
+  height: 260px;
+  overflow:hidden;
+  padding: 0;
+}
+
+.affiche img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+</code></pre></noscript></div>
+
+
+<p>Et là, jQuery est ton ami comme dirait l&#8217;autre. L&#8217;astuce consite à jouer sur la propriété <code>top</code> de l&#8217;image et de demander à jQuery d&#8217;incrémenter grâcieusement à l&#8217;aide de la fonction <a href="http://api.jquery.com/animate/">animate</a>.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.js'></script>
+<noscript><pre><code>$(document).ready(function() {
+    function up() {
+        $(&quot;#plop&quot;).animate({&quot;top&quot;: &quot;-=200px&quot;}, 1000, &quot;linear&quot;, down);
+    }
+    
+    function down() {    
+        $(&quot;#plop&quot;).animate({&quot;top&quot;: &quot;+=200px&quot;},1000, &quot;linear&quot;, up);
+    }
+
+    up();
+});</code></pre></noscript></div>
+
+
+<p>L&#8217;avantage de cette fonction, c&#8217;est qu&#8217;elle accepte comme dernier paramètre le nom d&#8217;une fonction a exécuter une fois l&#8217;animation complétée. Ainsi, on peut effectuer une animation dans un sens (up), puis la chainer à une animation dans le sens inverse (down), et boucler. ;-)</p>
+
+<p>Vous pouvez aller <a href="http://jsfiddle.net/KgWK4/45/">tester/modifier ce code</a> sur jsFiddle, qui m&#8217;a bien aidé pour tripatouiller cette idée.</p>
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/un-peu-danimation-avec-jquery">Read on &rarr;</a>
-    </footer>
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/environnement-de-developpment-rails-sous-ubuntu-11-dot-10">Environnement De Développement Rails Sous Ubuntu 11.10</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Bob Maerten</span></span>
 
-
-  
-<time datetime="2011-11-08T22:09:00+01:00" pubdate data-updated="true">Nov 8<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Alors que nombre de tutoriels, vidéos, [pod|screen]casts traitent de la meilleure façon de configurer son environnement <em>MacOSX</em> pour le développement ruby/rails, les articles concernant ce qu&#8217;il en est des autres systèmes sont plutôt rares (et d&#8217;autant plus en français), aussi je vous propose ici ma façon de procéder sur Ubuntu 11.10 que je viens tout juste de finir d&#8217;installer et de paramétrer sur <a href="http://www.dell.com/fr/entreprise/p/vostro-3450/pd">mon portable</a>.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/environnement-de-developpment-rails-sous-ubuntu-11-dot-10">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/cest-reparti-pour-de-nouvelles-aventures">C&#8217;est Reparti Pour De Nouvelles Aventures.</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -180,33 +181,46 @@
   
 
 
-<time datetime="2011-11-07T17:27:00+01:00" pubdate data-updated="true">Nov 7<span>th</span>, 2011</time>
-        
-      </p>
+<time datetime="2011-11-13T22:41:00+01:00" pubdate data-updated="true">Nov 13<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/développement/'>Développement</a>, <a class='category' href='/blog/categories/jquery/'>jQuery</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><h2>De retour en ligne</h2>
-
-<p>Après une tentative mitigée de publication en ligne, me revoici pour un second essai à l&#8217;aide d&#8217;un nouveau système plus en phase avec les outils que j&#8217;aime manipuler au quotidien (un shell unix, un <a href="http://www.vim.org">éditeur fabuleux</a>, un <a href="http://git-scm.org">système de gestion de version</a>) ainsi qu&#8217;un outil de blog en vogue, car porté par un grand : <a href="http://octopress.org">Octopress</a> by <a href="https://github.com">GitHub</a>.</p>
-
-<p>Les thématiques ne varient pas radicalement, ça cause toujours de DevWeb, de linux, d&#8217;opensource, mais je me suis dit, pourquoi ne pas élargir à mes coups de gueule, interrogations et humeurs, et qui sait un jour, de mes projets ! :D</p>
-
-<p>Les prochains billets seront certainement l&#8217;occasion pour moi d&#8217;essayer les différentes fonctionnalités de la plate-forme. En tout cas, merci d&#8217;être passé faire coucou, en espérant vous revoir venir ici régulièrement.</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://bobmaerten.github.com/un-peu-danimation-avec-jquery" data-via="bobmaerten" data-counturl="http://bobmaerten.github.com/un-peu-danimation-avec-jquery" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/environnement-de-developpment-rails-sous-ubuntu-11-dot-10" title="Previous Post: Environnement de développement rails sous Ubuntu 11.10">&laquo; Environnement de développement rails sous Ubuntu 11.10</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -214,7 +228,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/un-peu-danimation-avec-jquery">Un peu d&#8217;animation avec jQuery</a>
+        <a href="/un-peu-danimation-avec-jquery">Un peu d'animation avec jQuery</a>
       </li>
     
       <li class="post">
@@ -222,7 +236,7 @@
       </li>
     
       <li class="post">
-        <a href="/cest-reparti-pour-de-nouvelles-aventures">C&#8217;est reparti pour de nouvelles aventures.</a>
+        <a href="/cest-reparti-pour-de-nouvelles-aventures">C'est reparti pour de nouvelles aventures.</a>
       </li>
     
   </ul>
@@ -232,7 +246,7 @@
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -252,6 +266,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -266,7 +281,10 @@
       var disqus_shortname = 'bobmaerten';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://bobmaerten.github.com/un-peu-danimation-avec-jquery';
+        var disqus_url = 'http://bobmaerten.github.com/un-peu-danimation-avec-jquery';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
