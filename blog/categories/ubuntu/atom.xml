@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ubuntu | Le Blog de Bob]]></title>
+  <title><![CDATA[Category: Ubuntu | Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-11-13T23:45:21+01:00</updated>
+  <updated>2011-11-13T23:54:39+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
