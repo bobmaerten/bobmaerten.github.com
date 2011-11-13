@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://bobmaerten.github.com
-title: Le Blog de Bob
+title: Bob Maerten, le Blog
 subtitle: Humeurs et interrogations, DevWeb, Linux et autres curiosités
 author: Bob Maerten
 simple_search: http://google.com/search
@@ -12,10 +12,10 @@ simple_search: http://google.com/search
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
+date_format: "%d/%m/%Y"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: http://feeds.feedburner.com/BlogBobMaerten
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:

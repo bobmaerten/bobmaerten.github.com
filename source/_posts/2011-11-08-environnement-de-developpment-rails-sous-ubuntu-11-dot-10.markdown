@@ -2,7 +2,7 @@
 layout: post
 title: "Environnement de développement rails sous Ubuntu 11.10"
 date: 2011-11-08 22:09
-updated : 2011-11-09 10:09
+updated : 2011-11-12
 comments: true
 categories: [Ubuntu, Développement, Rails]
 ---
@@ -17,7 +17,7 @@ Les paquets suivants doivent être installés afin de pouvoir compléter l'insta
 sudo apt-get install build-essential openssl libreadline6 libreadline6-dev \
 zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 \
 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison \
-git curl libssl0.9.8
+git curl libssl0.9.8 libpq-dev
 ```
 
 ## La commande magique ;-)
@@ -68,3 +68,7 @@ Comme vous pouvez le constater sur le nombre de commandes à exécuter, l'instal
 * [RailsReady](https://github.com/joshfng/railsready) : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d'effectuer toutes les manipulations effectuées ci-dessus en une ligne.
 * [rbenv](https://github.com/sstephenson/rbenv) est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l'environnement). Je l'évoque ici, mais ne l'ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.
 * [La documentation Ubuntu officielle](http://doc.ubuntu-fr.org/rubyonrails) en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d'installation de gem par <code>sudo</code>.
+
+# Mises à jour de cet article
+2011-11-12 : Ajout d'un prérequis (libpq-dev) requis par l'hébergement heroku
+2011-11-09 : Ajout d'un prérequis (libssl) pour permettre à certaines application rails 3.0.x de se lancer
