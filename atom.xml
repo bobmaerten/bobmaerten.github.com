@@ -4,7 +4,7 @@
   <title><![CDATA[Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2011-11-15T13:35:11+01:00</updated>
+  <updated>2011-12-02T11:24:49+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cybook Odyssey de Bookeen, premières impressions]]></title>
+    <link href="http://bobmaerten.github.com/cybook-odyssey-de-bookeen"/>
+    <updated>2011-12-01T17:55:00+01:00</updated>
+    <id>http://bobmaerten.github.com/cybook-odyssey-de-bookeen</id>
+    <content type="html"><![CDATA[<p>Cela faisait quelques temps que j&#8217;envisageais l&#8217;achat d&#8217;une liseuse numérique pour profiter de mes
+achats compulsifs chez <a href="http://pragprog.com">Pragmatic Programmers</a>, les dizaines d&#8217;e-books gratuits glanés <a href="http://www.numilog.com/Pages/Livres/EbookGratuit.aspx">ça</a> et <a href="https://www.bookeenstore.com/fr/free">là</a>, de cette superbe <a href="http://onneditpas.bbxdesign.com/3280-quick-and-dirty">extention Chrome de conversion de pages web au format ePub</a> et accessoirement de quelques PDF de tutoriaux divers.</p>
+
+<p><img src="http://www.bookeen.com/images/odyssey/feature_7.jpg" alt="Image du Cybook Odyssey" /></p>
+
+<!--more-->
+
+
+<p>Voila chose faite avec l&#8217;achat il y quelques jours du <a href="http://bookeen.com/fr/cybook/odyssey">Cybook Odyssey</a> de <a href="http://bookeen.com">Bookeen</a>. Pourtant j&#8217;ai longtemps été rétissant envers ces outils, car pour en avoir essayé plusieurs en leur temps, j&#8217;ai toujours été déçu de leur performances. Attention, que l&#8217;on soit bien clair, ces outils ne sont pas des foudres de guerre, loin de là. Mais attendre plus de 2 secondes, comme je l&#8217;ai constaté, après avoir appuyé sur un bouton pour pouvoir passer à la page suivante d&#8217;un livre est tout simplement insurportable.</p>
+
+<p>Pour moi, les caractéritiques essentielles que j&#8217;attendais d&#8217;un livre électronique avant de craquer étaient :
+une lecture agréable et rapide (passage d&#8217;une page à l&#8217;autre), une ouverture totale permettant de
+manipuler ses fichiers facilement, et un prix abordable évidemment.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-yxpj-M1KWSc/TtimvF5p4nI/AAAAAAAABGA/tqaG58rhav4/s576/cybook_odyssey.jpg" alt="Image du mon
+Odyssey" /></p>
+
+<p>C&#8217;est le cas avec l&#8217;Odyssey ! Le passage d&#8217;une page à une autre, dans un sens comme dans l&#8217;autre est très réactif. Le toucher de l&#8217;écran (tactile donc, vous l&#8217;aurez compris) est léger et agréable. L&#8217;écran est plutôt dans les tons gris très clair, d&#8217;une résolution de 800x600 avec 16 niveau de gris, permet une lecture douce et immensément moins agressive qu&#8217;un écran rétro-éclairé. Il est complètement ouvert gràce à la connection micro-USB et vu comme un lecteur de masse sous n&#8217;importe quel système d&#8217;exploitation, et son slot microSD permet de stocker bien plus de livres que je ne pourrais jamais en lire. Il permet la lecture des livres aux formats ePub, PDF, HTML, TXT, ainsi que les fichiers DRMisé (beurk) à la Adobe. Il dechiffe également les images aux format JPEG, PNG, GIF, BMP, ICO, TIF, PSD, ainsi que les fichiers audio MP3. Enfin, il dispose d&#8217;un navigateur web qui permet de se connecter via WiFi. Et tout ça pour moins de 150€, elle est pas belle la vie ?</p>
+
+<p>J&#8217;ai eu l&#8217;occasion de l&#8217;utiliser un peu partout ces derniers jours (dans le canapé, dans le train, au bureau)
+et c&#8217;est un outil vraiment agréable. Il est léger, pas encombrant, facile a tenir en main. Ma première
+impression a été celle d&#8217;avoir dans les main un PADD comme ceux qu&#8217;on peux voir dans les différentes séries
+de Star Trek. ;-)</p>
+
+<p><img src="http://www.djibnet.com/photo/2592570241-cybook-di-bookeen-e-un-padd-di-star-trek-bookeen-cybook-and-a-star-trek-padd.jpg" alt="Image d'un PADD et d'un
+Cybook" /></p>
+
+<p>Bon évidemment il a (ou aura) quelques petits trucs qui me gêne(ront), et j&#8217;en reparlerai ici ou <a href="https://plus.google.com/115563477684195197330/posts">sur G+</a>, mais globalement je suis content de mon achat et cette première impression est donc très positive. Alors oui, le Kindle d&#8217;Amazon est 50€ moins cher, mais il est toujours aussi fermé et même pas tactile. Donc je pense que dans l&#8217;ensemble c&#8217;est une excellente affaire, pour peu que l&#8217;on soit bien concient des limites et de l&#8217;usage d&#8217;un tel appareil.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Un peu d'animation avec jQuery]]></title>
