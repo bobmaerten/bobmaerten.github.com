@@ -30,3 +30,7 @@ de Star Trek. ;-)
 Cybook](http://www.djibnet.com/photo/2592570241-cybook-di-bookeen-e-un-padd-di-star-trek-bookeen-cybook-and-a-star-trek-padd.jpg)
 
 Bon évidemment il a (ou aura) quelques petits trucs qui me gêne(ront), et j'en reparlerai ici ou [sur G+](https://plus.google.com/115563477684195197330/posts), mais globalement je suis content de mon achat et cette première impression est donc très positive. Alors oui, le Kindle d'Amazon est 50€ moins cher, mais il est toujours aussi fermé et même pas tactile. Donc je pense que dans l'ensemble c'est une excellente affaire, pour peu que l'on soit bien concient des limites et de l'usage d'un tel appareil.
+
+###Lecture complémentaire
+ * [Le blog de J-C Garnier](http://jcgarnier.wordpress.com/2011/11/18/livre-numerique-cybook-odyssey/)
+   dispose de beaucoup de commentaires très intéressants sur le sujet.
