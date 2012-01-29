@@ -4,7 +4,7 @@
   <title><![CDATA[Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-01-12T17:28:26+01:00</updated>
+  <updated>2012-01-29T22:33:34+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bilan de 2 semaines de bépo]]></title>
+    <link href="http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo"/>
+    <updated>2012-01-29T21:42:00+01:00</updated>
+    <id>http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo</id>
+    <content type="html"><![CDATA[<p>Lors de la veille que j&#8217;ai effectuée avant de me mettre au bépo, je suis bien évidemment tombé sur <a href="http://ploum.net">Ploum</a>, qui a passé le pas il y a bien des années déjà, et qui fait figure (enfin, pour ma part) d&#8217;ambassadeur dans le domaine.</p>
+
+<p>Je relisais ce matin <a href="http://linuxfr.org/users/ploum/journaux/2-semaines-en-typematrix-b%C3%A9po">un article de ses journaux (linuxfr)</a> qui expose sa progression dans l&#8217;apprentissage de la manipulation du bépo, et j&#8217;ai été vraiment épaté par les similarités assez précises dans mon ressenti au bout de ces 2 semaines de pratique <a href="https://twitter.com/#!/bobmaerten/status/161467232432553985">quasi</a>-exclusive (ce post y compris, bien entendu).</p>
+
+<!--more-->
+
+
+<p>Je me permets de copier/coller son ressenti, car aussi étonnant que cela puisse paraître, c&#8217;est <em>exactement</em> ce qui m&#8217;est arrivé pour le moment depuis 15 jours (hormis le digicode).</p>
+
+<blockquote><p>Semaine 1 (entre 10 et 20 MPM) :<br/>C&#8217;est très difficile. On a tendance a raccourcir ses phrases et à taper lettre à lettre. La frustration est grande de ne plus avoir taper ses idées, le clavier est un handicap. Je suis même devenu un peu parano : mon digicode et mon gsm me semblaient en bépo !</p><p>Semaine 2 (entre 20 et 30 MPM) :<br/>On peut commencer à taper. Cela fait plaisir. Parfois on tape très très vite et on fait des fautes toutes les deux lettres car on commence à passer en mode automatique mais sans la maîtrise. Parfois, en cas de fatigue, les doigts vont instinctivement chercher la position Azerty et on se retrouve à taper en regardant le clavier, par simple réflexe. On recommence à répondre à ses mails et à revenir à la vie en ligne.</p><footer><strong>Ploum</strong> <cite>Journal Linuxfr</cite></footer></blockquote>
+
+
+<p>Alors je sais pas comment celà évoluera, mais toujours est-il que ce me conforte dans mes impressions, et que ça tombe à pic alors que je commençais en fin de semaine à désespérer de me voir progesser aussi peu.</p>
+
+<p>Et vous, lecteurs bépoistes, qu&#8217;en est (était) il de vos impressions et progrès dans les premières semaines ?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bonne résolution 2012 v2.0]]></title>

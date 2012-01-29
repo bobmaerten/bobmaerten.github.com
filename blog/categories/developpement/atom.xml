@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Développement | Bob Maerten, le Blog]]></title>
-  <link href="http://bobmaerten.github.com/blog/categories/développement/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Developpement | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/developpement/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-01-12T17:28:26+01:00</updated>
+  <updated>2012-01-29T22:33:34+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
