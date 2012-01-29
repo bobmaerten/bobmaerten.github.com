@@ -3,7 +3,7 @@ layout: post
 title: "Cybook Odyssey de Bookeen, premières impressions"
 date: 2011-12-01 17:55
 comments: true
-categories: [Tests, Matériel, Lecture]
+categories: [Tests, Materiel, Lecture]
 ---
 Cela faisait quelques temps que j'envisageais l'achat d'une liseuse numérique pour profiter de mes
 achats compulsifs chez [Pragmatic Programmers](http://pragprog.com), les dizaines d'e-books gratuits glanés [ça](http://www.numilog.com/Pages/Livres/EbookGratuit.aspx) et [là](https://www.bookeenstore.com/fr/free), de cette superbe [extention Chrome de conversion de pages web au format ePub](http://onneditpas.bbxdesign.com/3280-quick-and-dirty) et accessoirement de quelques PDF de tutoriaux divers.

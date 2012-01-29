@@ -3,7 +3,7 @@ layout: post
 title: "Un peu d'animation avec jQuery"
 date: 2011-11-13 22:41
 comments: true
-categories: [jQuery, Développement]
+categories: [jQuery, Developpement]
 ---
 Dans le cadre d'un projet en cours, je souhaitais placer une image assez grande sur une page d'information, mais je trouvais que cela mettait en vrac la mise en page. Aussi, je me suis demandé ce que cela pourrait donner si cette image s'affichait de manière réduite mais agrémentée d'un défilement vertical.
 <!--more-->

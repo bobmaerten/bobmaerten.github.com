@@ -4,7 +4,7 @@ title: "Environnement de développement rails sous Ubuntu 11.10"
 date: 2011-11-08 22:09
 updated : 2011-11-12
 comments: true
-categories: [Ubuntu, Développement, Rails]
+categories: [Ubuntu, Developpement, Rails]
 ---
 Alors que nombre de tutoriels, vidéos, [pod|screen]casts traitent de la meilleure façon de configurer son environnement *MacOSX* pour le développement ruby/rails, les articles concernant ce qu'il en est des autres systèmes sont plutôt rares (et d'autant plus en français), aussi je vous propose ici ma façon de procéder sur Ubuntu 11.10 que je viens tout juste de finir d'installer et de paramétrer sur [mon portable](http://www.dell.com/fr/entreprise/p/vostro-3450/pd).
 <!--more-->

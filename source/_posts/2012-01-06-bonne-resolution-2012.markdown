@@ -3,7 +3,7 @@ layout: post
 title: "Bonne résolution 2012 v2.0"
 date: 2012-01-06 16:34
 comments: true
-categories: [Perso]
+categories: [Perso, Bepo, Materiel]
 ---
 Eh oui, bonne au singulier car je n'en aurai qu'une seule cette année et v2.0 car c'est une des résolutions
 de l'année dernière que je n'ai pas pris la peine de mettre en œuvre : apprendre à taper au clavier avec une
