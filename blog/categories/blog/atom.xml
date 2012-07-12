@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2012-06-01T10:21:23+02:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[C'est reparti pour de nouvelles aventures.]]></title>
+    <link href="http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures"/>
+    <updated>2011-11-07T17:27:00+01:00</updated>
+    <id>http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures</id>
+    <content type="html"><![CDATA[<h2>De retour en ligne</h2>
+
+<p>Après une tentative mitigée de publication en ligne, me revoici pour un second essai à l'aide d'un nouveau système plus en phase avec les outils que j'aime manipuler au quotidien (un shell unix, un <a href="http://www.vim.org">éditeur fabuleux</a>, un <a href="http://git-scm.org">système de gestion de version</a>) ainsi qu'un outil de blog en vogue, car porté par un grand : <a href="http://octopress.org">Octopress</a> by <a href="https://github.com">GitHub</a>.</p>
+
+<p>Les thématiques ne varient pas radicalement, ça cause toujours de DevWeb, de linux, d'opensource, mais je me suis dit, pourquoi ne pas élargir à mes coups de gueule, interrogations et humeurs, et qui sait un jour, de mes projets ! :D</p>
+
+<p>Les prochains billets seront certainement l'occasion pour moi d'essayer les différentes fonctionnalités de la plate-forme. En tout cas, merci d'être passé faire coucou, en espérant vous revoir venir ici régulièrement.</p>
+]]></content>
+  </entry>
+  
+</feed>

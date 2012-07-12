@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rails | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2012-06-01T10:21:23+02:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Environnement de développement rails sous Ubuntu 11.10]]></title>
+    <link href="http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10"/>
+    <updated>2011-11-08T22:09:00+01:00</updated>
+    <id>http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10</id>
+    <content type="html"><![CDATA[<p>Alors que nombre de tutoriels, vidéos, [pod|screen]casts traitent de la meilleure façon de configurer son environnement <em>MacOSX</em> pour le développement ruby/rails, les articles concernant ce qu'il en est des autres systèmes sont plutôt rares (et d'autant plus en français), aussi je vous propose ici ma façon de procéder sur Ubuntu 11.10 que je viens tout juste de finir d'installer et de paramétrer sur <a href="http://www.dell.com/fr/entreprise/p/vostro-3450/pd">mon portable</a>.</p>
+
+<!--more-->
+
+
+<h2>Méthode générale</h2>
+
+<p>Comme il s'agit d'installer une configuration de développement, le principe réside en l'installation de ruby par l'intermédiaire de <a href="http://rvm.beginrescueend.com">RVM</a>. L'avantage est de pouvoir disposer des fonctionnalités offertes par RVM telles que le choix de la version de ruby en fonction du projet, et accessoirement la possibilité de gérer des <em>gemsets</em>.</p>
+
+<h2>Pré-requis système</h2>
+
+<p>Les paquets suivants doivent être installés afin de pouvoir compléter l'installation.
+<code>bash
+sudo apt-get install build-essential openssl libreadline6 libreadline6-dev \
+zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 \
+libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison \
+git curl libssl0.9.8 libpq-dev
+</code></p>
+
+<h2>La commande magique ;-)</h2>
+
+<p>RVM s'installe à l'aide de cette commande
+<code>bash
+bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+</code>
+Cette commande récupère le script d'installation directement sur le site de RVM et l'exécute en local. Ensuite, comme l'indiquent les consignes affichées à la fin de l'exécution du script, il convient d'ajouter la commande suivante dans votre fichier <code>.bashrc</code> (ou .zshrc).
+<code>bash
+[[ -s "$HOME/.rvm/scripts/rvm" ]] &amp;&amp; source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell
+</code>
+Il convient enfin de recharger votre environnement (en fermant votre terminal, ou en effectuant un <code>source .bashrc</code> (ou source .zshrc)</p>
+
+<h2>Installation de Ruby</h2>
+
+<p>Maintenant nous disposons de la commande rvm, nous pouvons nous attaquer à Ruby sereinement, car RVM va nous faciliter grandement la tâche. Pour installer la dernière version en date, il suffit de taper :
+<code>bash
+rvm install 1.9.3
+</code>
+S'en suit une longue phase de récupération des sources, de paramétrage et de compilation, qui au final nous amène à terminer la configuration par :
+<code>bash
+rvm use 1.9.3 # ajouter --default pour en faire la version chargée par défaut au lancement du terminal
+</code></p>
+
+<h2>Toute la puissance de ruby et de rubygems à votre portée</h2>
+
+<p>Et voila, c'est tout. Vous pouvez désormais utiliser la commande <code>gem install</code> pour installer les librairies nécessaires à vos projets.
+<code>bash
+gem install bundler rails
+rails new my_new_app
+cd my_new_app
+rails s
+</code>
+<strong>Note</strong> : cette dernière commande va échouer sur la derniere version de rails (3.1.x) car il y a une dépendance sur un moteur d'exécution Javascript. Deux solutions :
+<code>bash ajouter therubyracer au fichier Gemfile
+echo "gem 'therubyracer'" &gt;&gt; Gemfile
+bundle
+rails s
+</code>
+ou alors, si jamais vous vous intéressez également un peu à Javascript coté serveur, vous pouvez installer le paquet <code>nodejs</code>.
+<code>bash Installer Node.js sur le système, rails s'en servira au lieu de therubyracer
+sudo apt-get install nodejs
+rails s
+</code></p>
+
+<h2>Conclusion</h2>
+
+<p>Comme vous pouvez le constater sur le nombre de commandes à exécuter, l'installation et la configuration d'un environnement de développement rails sous Ubuntu n'est pas très compliqué. Et même si vous développez sous <em>MacOSX</em>, il peut être intéressant de connaître la démarche pour peu que vous soyez amené à déployer votre code sur un système Linux, ou si vous souhaitez tester votre application sur un serveur virtualisé (avec la gem <code>vagrant</code> par exemple).</p>
+
+<h4>Ressources complémentaires</h4>
+
+<ul>
+<li><a href="https://github.com/joshfng/railsready">RailsReady</a> : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d'effectuer toutes les manipulations effectuées ci-dessus en une ligne.</li>
+<li><a href="https://github.com/sstephenson/rbenv">rbenv</a> est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l'environnement). Je l'évoque ici, mais ne l'ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.</li>
+<li><a href="http://doc.ubuntu-fr.org/rubyonrails">La documentation Ubuntu officielle</a> en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d'installation de gem par <code>sudo</code>.</li>
+</ul>
+
+
+<h1>Mises à jour de cet article</h1>
+
+<p>2011-11-12 : Ajout d'un prérequis (libpq-dev) requis par l'hébergement heroku
+2011-11-09 : Ajout d'un prérequis (libssl) pour permettre à certaines application rails 3.0.x de se lancer</p>
+]]></content>
+  </entry>
+  
+</feed>

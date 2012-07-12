@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Materiel | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/materiel/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2012-06-01T10:21:23+02:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bilan de 2 semaines de bépo]]></title>
+    <link href="http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo"/>
+    <updated>2012-01-29T21:42:00+01:00</updated>
+    <id>http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo</id>
+    <content type="html"><![CDATA[<p>Lors de la veille que j'ai effectuée avant de me mettre au bépo, je suis bien évidemment tombé sur <a href="http://ploum.net">Ploum</a>, qui a passé le pas il y a bien des années déjà, et qui fait figure (enfin, pour ma part) d'ambassadeur dans le domaine.</p>
+
+<p>Je relisais ce matin <a href="http://linuxfr.org/users/ploum/journaux/2-semaines-en-typematrix-b%C3%A9po">un article de ses journaux (linuxfr)</a> qui expose sa progression dans l'apprentissage de la manipulation du bépo, et j'ai été vraiment épaté par les similarités assez précises dans mon ressenti au bout de ces 2 semaines de pratique <a href="https://twitter.com/#!/bobmaerten/status/161467232432553985">quasi</a>-exclusive (ce post y compris, bien entendu).</p>
+
+<!--more-->
+
+
+<p>Je me permets de copier/coller son ressenti, car aussi étonnant que cela puisse paraître, c'est <em>exactement</em> ce qui m'est arrivé pour le moment depuis 15 jours (hormis le digicode).
+<blockquote><p>Semaine 1 (entre 10 et 20 MPM) :<br/>C'est très difficile. On a tendance a raccourcir ses phrases et à taper lettre à lettre. La frustration est grande de ne plus avoir taper ses idées, le clavier est un handicap. Je suis même devenu un peu parano : mon digicode et mon gsm me semblaient en bépo !</p></p><p><p>Semaine 2 (entre 20 et 30 MPM) :<br/>On peut commencer à taper. Cela fait plaisir. Parfois on tape très très vite et on fait des fautes toutes les deux lettres car on commence à passer en mode automatique mais sans la maîtrise. Parfois, en cas de fatigue, les doigts vont instinctivement chercher la position Azerty et on se retrouve à taper en regardant le clavier, par simple réflexe. On recommence à répondre à ses mails et à revenir à la vie en ligne.</p><footer><strong>Ploum</strong> <cite>Journal Linuxfr</cite></footer></blockquote></p>
+
+<p>Alors je sais pas comment celà évoluera, mais toujours est-il que ce me conforte dans mes impressions, et que ça tombe à pic alors que je commençais en fin de semaine à désespérer de me voir progesser aussi peu.</p>
+
+<p>Et vous, lecteurs bépoistes, qu'en est (était) il de vos impressions et progrès dans les premières semaines ?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bonne résolution 2012 v2.0]]></title>
+    <link href="http://bobmaerten.github.com/bonne-resolution-2012"/>
+    <updated>2012-01-06T16:34:00+01:00</updated>
+    <id>http://bobmaerten.github.com/bonne-resolution-2012</id>
+    <content type="html"><![CDATA[<p>Eh oui, bonne au singulier car je n'en aurai qu'une seule cette année et v2.0 car c'est une des résolutions
+de l'année dernière que je n'ai pas pris la peine de mettre en œuvre : apprendre à taper au clavier avec une
+disposition (layout) <em>bépo</em>.</p>
+
+<!--more-->
+
+
+<p>Cette année, ce sera différent car je viens de commander un clavier dédié à cet apprentissage sur le site de
+<a href="http://typematrix.com/bepo.php">TypeMatrix</a>.
+<img src="http://www.typematrix.com/images/bepo/2030usb_fr_bepo_640x268.png"></p>
+
+<p>Fortement conseillé par mes amis
+<a href="https://twitter.com/#!/le_bric_a_brac">V</a>&amp;<a href="https://twitter.com/#!/vincent31416">V</a>, cette disposition de
+clavier est prévue pour être beaucoup plus ergonomique que le sempiternel azery, prévu à la base il faut le
+rappeler, pour taper moins vite afin que les branches de la machine à écrire ne se coincent pas... Les doigts
+bougent moins, les caractères spécifiques au français et au développement logiciel sont plus logiquement
+placés.</p>
+
+<p>Alors évidement, on peut utiliser n'importe quel clavier pour écrire en bépo. Seulement, je souhaitais un
+changement flagrant afin de bien préparer mon cerveau à cette nouvelle disposition. C'est pourquoi mon choix
+s'est porté sur l'achat d'un clavier TypeMatrix qui propose depuis peu le bépo en terme de <em>layout</em> (on
+trouve les classiques azerty et qwerty, mais également dvorak duquel s'inspire bépo).</p>
+
+<p>L'autre avantage de ce type de clavier, c'est que certaines touches sont organisées différemment comme les
+touche <em>Entrée</em> et <em>Retour arrière</em> qui sont placée au milieu du clavier afin qu'elles soient pressées avec
+l'index (doigt fort) au lieu de l'oriculaire (doigt généralement le plus faible). Les touches majuscules
+restant sur les doigts faible, mais avec une taille identique de chaque coté.</p>
+
+<p>Ce type de clavier ainsi que la disposition bépo me séduisent, et maintenant que le pas est franchi, reste plus qu'à essayer,
+et persister car il parait que l'apprentissage est un peu long pour rattraper une vitesse de frappe équivalente sur un clavier classique,
+mais qu'une fois le mapping mental effectué, il est possible d'atteindre des <a href="http://www.dailymotion.com/video/xaf9ee_typematrix-2030-bepo-92-mpm_tech">vitesses très intéressantes</a> (c'est assez frappant de voir sur cette vidéo la position relativement statique des mains comparée à une frappe sur un clavier azerty).</p>
+
+<p>Bien entendu, je ferai un petit retour à chaud une fois le clavier reçu.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cybook Odyssey de Bookeen, premières impressions]]></title>
+    <link href="http://bobmaerten.github.com/cybook-odyssey-de-bookeen"/>
+    <updated>2011-12-01T17:55:00+01:00</updated>
+    <id>http://bobmaerten.github.com/cybook-odyssey-de-bookeen</id>
+    <content type="html"><![CDATA[<p>Cela faisait quelques temps que j'envisageais l'achat d'une liseuse numérique pour profiter de mes
+achats compulsifs chez <a href="http://pragprog.com">Pragmatic Programmers</a>, les dizaines d'e-books gratuits glanés <a href="http://www.numilog.com/Pages/Livres/EbookGratuit.aspx">ça</a> et <a href="https://www.bookeenstore.com/fr/free">là</a>, de cette superbe <a href="http://onneditpas.bbxdesign.com/3280-quick-and-dirty">extention Chrome de conversion de pages web au format ePub</a> et accessoirement de quelques PDF de tutoriaux divers.</p>
+
+<p><img src="http://www.bookeen.com/images/odyssey/feature_7.jpg" alt="Image du Cybook Odyssey" /></p>
+
+<!--more-->
+
+
+<p>Voila chose faite avec l'achat il y quelques jours du <a href="http://bookeen.com/fr/cybook/odyssey">Cybook Odyssey</a> de <a href="http://bookeen.com">Bookeen</a>. Pourtant j'ai longtemps été rétissant envers ces outils, car pour en avoir essayé plusieurs en leur temps, j'ai toujours été déçu de leur performances. Attention, que l'on soit bien clair, ces outils ne sont pas des foudres de guerre, loin de là. Mais attendre plus de 2 secondes, comme je l'ai constaté, après avoir appuyé sur un bouton pour pouvoir passer à la page suivante d'un livre est tout simplement insurportable.</p>
+
+<p>Pour moi, les caractéritiques essentielles que j'attendais d'un livre électronique avant de craquer étaient :
+une lecture agréable et rapide (passage d'une page à l'autre), une ouverture totale permettant de
+manipuler ses fichiers facilement, et un prix abordable évidemment.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-yxpj-M1KWSc/TtimvF5p4nI/AAAAAAAABGA/tqaG58rhav4/s576/cybook_odyssey.jpg" alt="Image du mon
+Odyssey" /></p>
+
+<p>C'est le cas avec l'Odyssey ! Le passage d'une page à une autre, dans un sens comme dans l'autre est très réactif. Le toucher de l'écran (tactile donc, vous l'aurez compris) est léger et agréable. L'écran est plutôt dans les tons gris très clair, d'une résolution de 800x600 avec 16 niveau de gris, permet une lecture douce et immensément moins agressive qu'un écran rétro-éclairé. Il est complètement ouvert gràce à la connection micro-USB et vu comme un lecteur de masse sous n'importe quel système d'exploitation, et son slot microSD permet de stocker bien plus de livres que je ne pourrais jamais en lire. Il permet la lecture des livres aux formats ePub, PDF, HTML, TXT, ainsi que les fichiers DRMisé (beurk) à la Adobe. Il dechiffe également les images aux format JPEG, PNG, GIF, BMP, ICO, TIF, PSD, ainsi que les fichiers audio MP3. Enfin, il dispose d'un navigateur web qui permet de se connecter via WiFi. Et tout ça pour moins de 150€, elle est pas belle la vie ?</p>
+
+<p>J'ai eu l'occasion de l'utiliser un peu partout ces derniers jours (dans le canapé, dans le train, au bureau)
+et c'est un outil vraiment agréable. Il est léger, pas encombrant, facile a tenir en main. Ma première
+impression a été celle d'avoir dans les main un PADD comme ceux qu'on peux voir dans les différentes séries
+de Star Trek. ;-)</p>
+
+<p><img src="http://www.djibnet.com/photo/2592570241-cybook-di-bookeen-e-un-padd-di-star-trek-bookeen-cybook-and-a-star-trek-padd.jpg" alt="Image d'un PADD et d'un
+Cybook" /></p>
+
+<p>Bon évidemment il a (ou aura) quelques petits trucs qui me gêne(ront), et j'en reparlerai ici ou <a href="https://plus.google.com/115563477684195197330/posts">sur G+</a>, mais globalement je suis content de mon achat et cette première impression est donc très positive. Alors oui, le Kindle d'Amazon est 50€ moins cher, mais il est toujours aussi fermé et même pas tactile. Donc je pense que dans l'ensemble c'est une excellente affaire, pour peu que l'on soit bien concient des limites et de l'usage d'un tel appareil.</p>
+
+<h3>Lecture complémentaire</h3>
+
+<ul>
+<li><a href="http://jcgarnier.wordpress.com/2011/11/18/livre-numerique-cybook-odyssey/">Le blog de J-C Garnier</a>
+dispose de beaucoup de commentaires très intéressants sur le sujet.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

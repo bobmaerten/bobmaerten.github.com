@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2012-06-01T10:21:23+02:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bilan de 2 semaines de bépo]]></title>
+    <link href="http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo"/>
+    <updated>2012-01-29T21:42:00+01:00</updated>
+    <id>http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo</id>
+    <content type="html"><![CDATA[<p>Lors de la veille que j&#8217;ai effectuée avant de me mettre au bépo, je suis bien évidemment tombé sur <a href="http://ploum.net">Ploum</a>, qui a passé le pas il y a bien des années déjà, et qui fait figure (enfin, pour ma part) d&#8217;ambassadeur dans le domaine.</p>
+
+<p>Je relisais ce matin <a href="http://linuxfr.org/users/ploum/journaux/2-semaines-en-typematrix-b%C3%A9po">un article de ses journaux (linuxfr)</a> qui expose sa progression dans l&#8217;apprentissage de la manipulation du bépo, et j&#8217;ai été vraiment épaté par les similarités assez précises dans mon ressenti au bout de ces 2 semaines de pratique <a href="https://twitter.com/#!/bobmaerten/status/161467232432553985">quasi</a>-exclusive (ce post y compris, bien entendu).</p>
+
+<!--more-->
+
+
+<p>Je me permets de copier/coller son ressenti, car aussi étonnant que cela puisse paraître, c&#8217;est <em>exactement</em> ce qui m&#8217;est arrivé pour le moment depuis 15 jours (hormis le digicode).</p>
+
+<blockquote><p>Semaine 1 (entre 10 et 20 MPM) :<br/>C&#8217;est très difficile. On a tendance a raccourcir ses phrases et à taper lettre à lettre. La frustration est grande de ne plus avoir taper ses idées, le clavier est un handicap. Je suis même devenu un peu parano : mon digicode et mon gsm me semblaient en bépo !</p><p>Semaine 2 (entre 20 et 30 MPM) :<br/>On peut commencer à taper. Cela fait plaisir. Parfois on tape très très vite et on fait des fautes toutes les deux lettres car on commence à passer en mode automatique mais sans la maîtrise. Parfois, en cas de fatigue, les doigts vont instinctivement chercher la position Azerty et on se retrouve à taper en regardant le clavier, par simple réflexe. On recommence à répondre à ses mails et à revenir à la vie en ligne.</p><footer><strong>Ploum</strong> <cite>Journal Linuxfr</cite></footer></blockquote>
+
+
+<p>Alors je sais pas comment celà évoluera, mais toujours est-il que ce me conforte dans mes impressions, et que ça tombe à pic alors que je commençais en fin de semaine à désespérer de me voir progesser aussi peu.</p>
+
+<p>Et vous, lecteurs bépoistes, qu&#8217;en est (était) il de vos impressions et progrès dans les premières semaines ?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bonne résolution 2012 v2.0]]></title>
+    <link href="http://bobmaerten.github.com/bonne-resolution-2012"/>
+    <updated>2012-01-06T16:34:00+01:00</updated>
+    <id>http://bobmaerten.github.com/bonne-resolution-2012</id>
+    <content type="html"><![CDATA[<p>Eh oui, bonne au singulier car je n&#8217;en aurai qu&#8217;une seule cette année et v2.0 car c&#8217;est une des résolutions
+de l&#8217;année dernière que je n&#8217;ai pas pris la peine de mettre en œuvre : apprendre à taper au clavier avec une
+disposition (layout) <em>bépo</em>.</p>
+
+<!--more-->
+
+
+<p>Cette année, ce sera différent car je viens de commander un clavier dédié à cet apprentissage sur le site de
+<a href="http://typematrix.com/bepo.php">TypeMatrix</a>.
+<img src="http://www.typematrix.com/images/bepo/2030usb_fr_bepo_640x268.png"></p>
+
+<p>Fortement conseillé par mes amis
+<a href="https://twitter.com/#!/le_bric_a_brac">V</a>&amp;<a href="https://twitter.com/#!/vincent31416">V</a>, cette disposition de
+clavier est prévue pour être beaucoup plus ergonomique que le sempiternel azery, prévu à la base il faut le
+rappeler, pour taper moins vite afin que les branches de la machine à écrire ne se coincent pas&#8230; Les doigts
+bougent moins, les caractères spécifiques au français et au développement logiciel sont plus logiquement
+placés.</p>
+
+<p>Alors évidement, on peut utiliser n&#8217;importe quel clavier pour écrire en bépo. Seulement, je souhaitais un
+changement flagrant afin de bien préparer mon cerveau à cette nouvelle disposition. C&#8217;est pourquoi mon choix
+s&#8217;est porté sur l&#8217;achat d&#8217;un clavier TypeMatrix qui propose depuis peu le bépo en terme de <em>layout</em> (on
+trouve les classiques azerty et qwerty, mais également dvorak duquel s&#8217;inspire bépo).</p>
+
+<p>L&#8217;autre avantage de ce type de clavier, c&#8217;est que certaines touches sont organisées différemment comme les
+touche <em>Entrée</em> et <em>Retour arrière</em> qui sont placée au milieu du clavier afin qu&#8217;elles soient pressées avec
+l&#8217;index (doigt fort) au lieu de l&#8217;oriculaire (doigt généralement le plus faible). Les touches majuscules
+restant sur les doigts faible, mais avec une taille identique de chaque coté.</p>
+
+<p>Ce type de clavier ainsi que la disposition bépo me séduisent, et maintenant que le pas est franchi, reste plus qu&#8217;à essayer,
+et persister car il parait que l&#8217;apprentissage est un peu long pour rattraper une vitesse de frappe équivalente sur un clavier classique,
+mais qu&#8217;une fois le mapping mental effectué, il est possible d&#8217;atteindre des <a href="http://www.dailymotion.com/video/xaf9ee_typematrix-2030-bepo-92-mpm_tech">vitesses très intéressantes</a> (c&#8217;est assez frappant de voir sur cette vidéo la position relativement statique des mains comparée à une frappe sur un clavier azerty).</p>
+
+<p>Bien entendu, je ferai un petit retour à chaud une fois le clavier reçu.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cybook Odyssey de Bookeen, premières impressions]]></title>
+    <link href="http://bobmaerten.github.com/cybook-odyssey-de-bookeen"/>
+    <updated>2011-12-01T17:55:00+01:00</updated>
+    <id>http://bobmaerten.github.com/cybook-odyssey-de-bookeen</id>
+    <content type="html"><![CDATA[<p>Cela faisait quelques temps que j&#8217;envisageais l&#8217;achat d&#8217;une liseuse numérique pour profiter de mes
+achats compulsifs chez <a href="http://pragprog.com">Pragmatic Programmers</a>, les dizaines d&#8217;e-books gratuits glanés <a href="http://www.numilog.com/Pages/Livres/EbookGratuit.aspx">ça</a> et <a href="https://www.bookeenstore.com/fr/free">là</a>, de cette superbe <a href="http://onneditpas.bbxdesign.com/3280-quick-and-dirty">extention Chrome de conversion de pages web au format ePub</a> et accessoirement de quelques PDF de tutoriaux divers.</p>
+
+<p><img src="http://www.bookeen.com/images/odyssey/feature_7.jpg" alt="Image du Cybook Odyssey" /></p>
+
+<!--more-->
+
+
+<p>Voila chose faite avec l&#8217;achat il y quelques jours du <a href="http://bookeen.com/fr/cybook/odyssey">Cybook Odyssey</a> de <a href="http://bookeen.com">Bookeen</a>. Pourtant j&#8217;ai longtemps été rétissant envers ces outils, car pour en avoir essayé plusieurs en leur temps, j&#8217;ai toujours été déçu de leur performances. Attention, que l&#8217;on soit bien clair, ces outils ne sont pas des foudres de guerre, loin de là. Mais attendre plus de 2 secondes, comme je l&#8217;ai constaté, après avoir appuyé sur un bouton pour pouvoir passer à la page suivante d&#8217;un livre est tout simplement insurportable.</p>
+
+<p>Pour moi, les caractéritiques essentielles que j&#8217;attendais d&#8217;un livre électronique avant de craquer étaient :
+une lecture agréable et rapide (passage d&#8217;une page à l&#8217;autre), une ouverture totale permettant de
+manipuler ses fichiers facilement, et un prix abordable évidemment.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-yxpj-M1KWSc/TtimvF5p4nI/AAAAAAAABGA/tqaG58rhav4/s576/cybook_odyssey.jpg" alt="Image du mon
+Odyssey" /></p>
+
+<p>C&#8217;est le cas avec l&#8217;Odyssey ! Le passage d&#8217;une page à une autre, dans un sens comme dans l&#8217;autre est très réactif. Le toucher de l&#8217;écran (tactile donc, vous l&#8217;aurez compris) est léger et agréable. L&#8217;écran est plutôt dans les tons gris très clair, d&#8217;une résolution de 800x600 avec 16 niveau de gris, permet une lecture douce et immensément moins agressive qu&#8217;un écran rétro-éclairé. Il est complètement ouvert gràce à la connection micro-USB et vu comme un lecteur de masse sous n&#8217;importe quel système d&#8217;exploitation, et son slot microSD permet de stocker bien plus de livres que je ne pourrais jamais en lire. Il permet la lecture des livres aux formats ePub, PDF, HTML, TXT, ainsi que les fichiers DRMisé (beurk) à la Adobe. Il dechiffe également les images aux format JPEG, PNG, GIF, BMP, ICO, TIF, PSD, ainsi que les fichiers audio MP3. Enfin, il dispose d&#8217;un navigateur web qui permet de se connecter via WiFi. Et tout ça pour moins de 150€, elle est pas belle la vie ?</p>
+
+<p>J&#8217;ai eu l&#8217;occasion de l&#8217;utiliser un peu partout ces derniers jours (dans le canapé, dans le train, au bureau)
+et c&#8217;est un outil vraiment agréable. Il est léger, pas encombrant, facile a tenir en main. Ma première
+impression a été celle d&#8217;avoir dans les main un PADD comme ceux qu&#8217;on peux voir dans les différentes séries
+de Star Trek. ;-)</p>
+
+<p><img src="http://www.djibnet.com/photo/2592570241-cybook-di-bookeen-e-un-padd-di-star-trek-bookeen-cybook-and-a-star-trek-padd.jpg" alt="Image d'un PADD et d'un
+Cybook" /></p>
+
+<p>Bon évidemment il a (ou aura) quelques petits trucs qui me gêne(ront), et j&#8217;en reparlerai ici ou <a href="https://plus.google.com/115563477684195197330/posts">sur G+</a>, mais globalement je suis content de mon achat et cette première impression est donc très positive. Alors oui, le Kindle d&#8217;Amazon est 50€ moins cher, mais il est toujours aussi fermé et même pas tactile. Donc je pense que dans l&#8217;ensemble c&#8217;est une excellente affaire, pour peu que l&#8217;on soit bien concient des limites et de l&#8217;usage d&#8217;un tel appareil.</p>
+
+<h3>Lecture complémentaire</h3>
+
+<ul>
+<li><a href="http://jcgarnier.wordpress.com/2011/11/18/livre-numerique-cybook-odyssey/">Le blog de J-C Garnier</a>
+dispose de beaucoup de commentaires très intéressants sur le sujet.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Un peu d'animation avec jQuery]]></title>
+    <link href="http://bobmaerten.github.com/un-peu-danimation-avec-jquery"/>
+    <updated>2011-11-13T22:41:00+01:00</updated>
+    <id>http://bobmaerten.github.com/un-peu-danimation-avec-jquery</id>
+    <content type="html"><![CDATA[<p>Dans le cadre d&#8217;un projet en cours, je souhaitais placer une image assez grande sur une page d&#8217;information, mais je trouvais que cela mettait en vrac la mise en page. Aussi, je me suis demandé ce que cela pourrait donner si cette image s&#8217;affichait de manière réduite mais agrémentée d&#8217;un défilement vertical.</p>
+
+<!--more-->
+
+
+<p>L&#8217;affichage se présente donc de la sorte : une image englobée dans un calque qui est plus petit, et donc tronquée. L&#8217;idée est de faire défiler verticalement l&#8217;image pour la dévoiler au fur et à mesure :</p>
+
+<p><img src="https://lh5.googleusercontent.com/-Z6Vkpu1xtdw/TsA9sQUDMxI/AAAAAAAAA-Y/ysQhdLEZfWA/s986/1321221551960.png" alt="Mon super Site" /></p>
+
+<p>Voici le code correspondant.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.html'></script>
+<noscript><pre><code>&lt;div class=&quot;affiche&quot;&gt;
+  &lt;img id=&quot;pic&quot; src=&quot;http://placehold.it/940x560&quot; /&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Mon Super Site&lt;/h1&gt;
+    &lt;p&gt;ou on y cause de tout et de rien...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></noscript></div>
+
+
+<p>Notez l&#8217;utilisation de <code>overflow:hidden</code> afin d&#8217;empêcher que le <code>div</code> ne prenne la taille de l&#8217;image.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.css'></script>
+<noscript><pre><code>.affiche {
+  position: relative;
+  height: 260px;
+  overflow:hidden;
+  padding: 0;
+}
+
+.affiche img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+</code></pre></noscript></div>
+
+
+<p>Et là, jQuery est ton ami comme dirait l&#8217;autre. L&#8217;astuce consite à jouer sur la propriété <code>top</code> de l&#8217;image et de demander à jQuery d&#8217;incrémenter grâcieusement à l&#8217;aide de la fonction <a href="http://api.jquery.com/animate/">animate</a>.</p>
+
+<div><script src='https://gist.github.com/1362818.js?file=page.js'></script>
+<noscript><pre><code>$(document).ready(function() {
+    function up() {
+        $(&quot;#plop&quot;).animate({&quot;top&quot;: &quot;-=200px&quot;}, 1000, &quot;linear&quot;, down);
+    }
+    
+    function down() {    
+        $(&quot;#plop&quot;).animate({&quot;top&quot;: &quot;+=200px&quot;},1000, &quot;linear&quot;, up);
+    }
+
+    up();
+});</code></pre></noscript></div>
+
+
+<p>L&#8217;avantage de cette fonction, c&#8217;est qu&#8217;elle accepte comme dernier paramètre le nom d&#8217;une fonction a exécuter une fois l&#8217;animation complétée. Ainsi, on peut effectuer une animation dans un sens (up), puis la chainer à une animation dans le sens inverse (down), et boucler. ;-)</p>
+
+<p>Vous pouvez aller <a href="http://jsfiddle.net/KgWK4/45/">tester/modifier ce code</a> sur jsFiddle, qui m&#8217;a bien aidé pour tripatouiller cette idée.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Environnement de développement rails sous Ubuntu 11.10]]></title>
+    <link href="http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10"/>
+    <updated>2011-11-08T22:09:00+01:00</updated>
+    <id>http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10</id>
+    <content type="html"><![CDATA[<p>Alors que nombre de tutoriels, vidéos, [pod|screen]casts traitent de la meilleure façon de configurer son environnement <em>MacOSX</em> pour le développement ruby/rails, les articles concernant ce qu&#8217;il en est des autres systèmes sont plutôt rares (et d&#8217;autant plus en français), aussi je vous propose ici ma façon de procéder sur Ubuntu 11.10 que je viens tout juste de finir d&#8217;installer et de paramétrer sur <a href="http://www.dell.com/fr/entreprise/p/vostro-3450/pd">mon portable</a>.</p>
+
+<!--more-->
+
+
+<h2>Méthode générale</h2>
+
+<p>Comme il s&#8217;agit d&#8217;installer une configuration de développement, le principe réside en l&#8217;installation de ruby par l&#8217;intermédiaire de <a href="http://rvm.beginrescueend.com">RVM</a>. L&#8217;avantage est de pouvoir disposer des fonctionnalités offertes par RVM telles que le choix de la version de ruby en fonction du projet, et accessoirement la possibilité de gérer des <em>gemsets</em>.</p>
+
+<h2>Pré-requis système</h2>
+
+<p>Les paquets suivants doivent être installés afin de pouvoir compléter l&#8217;installation.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get install build-essential openssl libreadline6 libreadline6-dev <span class="se">\</span>
+</span><span class='line'>zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 <span class="se">\</span>
+</span><span class='line'>libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison <span class="se">\</span>
+</span><span class='line'>git curl libssl0.9.8 libpq-dev
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>La commande magique ;-)</h2>
+
+<p>RVM s&#8217;installe à l&#8217;aide de cette commande</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bash &lt; &lt;<span class="o">(</span>curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer <span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Cette commande récupère le script d&#8217;installation directement sur le site de RVM et l&#8217;exécute en local. Ensuite, comme l&#8217;indiquent les consignes affichées à la fin de l&#8217;exécution du script, il convient d&#8217;ajouter la commande suivante dans votre fichier <code>.bashrc</code> (ou .zshrc).</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="c"># Load RVM into a shell</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Il convient enfin de recharger votre environnement (en fermant votre terminal, ou en effectuant un <code>source .bashrc</code> (ou source .zshrc)</p>
+
+<h2>Installation de Ruby</h2>
+
+<p>Maintenant nous disposons de la commande rvm, nous pouvons nous attaquer à Ruby sereinement, car RVM va nous faciliter grandement la tâche. Pour installer la dernière version en date, il suffit de taper :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rvm install 1.9.3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>S&#8217;en suit une longue phase de récupération des sources, de paramétrage et de compilation, qui au final nous amène à terminer la configuration par :</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rvm use 1.9.3 <span class="c"># ajouter --default pour en faire la version chargée par défaut au lancement du terminal</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Toute la puissance de ruby et de rubygems à votre portée</h2>
+
+<p>Et voila, c&#8217;est tout. Vous pouvez désormais utiliser la commande <code>gem install</code> pour installer les librairies nécessaires à vos projets.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gem install bundler rails
+</span><span class='line'>rails new my_new_app
+</span><span class='line'><span class="nb">cd </span>my_new_app
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Note</strong> : cette dernière commande va échouer sur la derniere version de rails (3.1.x) car il y a une dépendance sur un moteur d&#8217;exécution Javascript. Deux solutions :</p>
+
+<figure class='code'><figcaption><span>ajouter therubyracer au fichier Gemfile</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">echo</span> <span class="s2">&quot;gem &#39;therubyracer&#39;&quot;</span> &gt;&gt; Gemfile
+</span><span class='line'>bundle
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ou alors, si jamais vous vous intéressez également un peu à Javascript coté serveur, vous pouvez installer le paquet <code>nodejs</code>.</p>
+
+<figure class='code'><figcaption><span>Installer Node.js sur le système, rails s&#8217;en servira au lieu de therubyracer</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get install nodejs
+</span><span class='line'>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Conclusion</h2>
+
+<p>Comme vous pouvez le constater sur le nombre de commandes à exécuter, l&#8217;installation et la configuration d&#8217;un environnement de développement rails sous Ubuntu n&#8217;est pas très compliqué. Et même si vous développez sous <em>MacOSX</em>, il peut être intéressant de connaître la démarche pour peu que vous soyez amené à déployer votre code sur un système Linux, ou si vous souhaitez tester votre application sur un serveur virtualisé (avec la gem <code>vagrant</code> par exemple).</p>
+
+<h4>Ressources complémentaires</h4>
+
+<ul>
+<li><a href="https://github.com/joshfng/railsready">RailsReady</a> : un script encore plus automatisé qui fonctionne sur MacOS, Ubuntu et CentOS permettant d&#8217;effectuer toutes les manipulations effectuées ci-dessus en une ligne.</li>
+<li><a href="https://github.com/sstephenson/rbenv">rbenv</a> est une nouvelle implémentation des fonctionnalités de RVM, avec un postulat légèrement différenti (notamment sur la façon de gérer l&#8217;environnement). Je l&#8217;évoque ici, mais ne l&#8217;ayant pas exploré vraiment, je ne me permettrais pas de porter un jugement.</li>
+<li><a href="http://doc.ubuntu-fr.org/rubyonrails">La documentation Ubuntu officielle</a> en français, mais elle préconise une installation de RVM au niveau du système, ce qui oblige à préfixer chaque action d&#8217;installation de gem par <code>sudo</code>.</li>
+</ul>
+
+
+<h1>Mises à jour de cet article</h1>
+
+<p>2011-11-12 : Ajout d&#8217;un prérequis (libpq-dev) requis par l&#8217;hébergement heroku
+2011-11-09 : Ajout d&#8217;un prérequis (libssl) pour permettre à certaines application rails 3.0.x de se lancer</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[C'est reparti pour de nouvelles aventures.]]></title>
+    <link href="http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures"/>
+    <updated>2011-11-07T17:27:00+01:00</updated>
+    <id>http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures</id>
+    <content type="html"><![CDATA[<h2>De retour en ligne</h2>
+
+<p>Après une tentative mitigée de publication en ligne, me revoici pour un second essai à l&#8217;aide d&#8217;un nouveau système plus en phase avec les outils que j&#8217;aime manipuler au quotidien (un shell unix, un <a href="http://www.vim.org">éditeur fabuleux</a>, un <a href="http://git-scm.org">système de gestion de version</a>) ainsi qu&#8217;un outil de blog en vogue, car porté par un grand : <a href="http://octopress.org">Octopress</a> by <a href="https://github.com">GitHub</a>.</p>
+
+<p>Les thématiques ne varient pas radicalement, ça cause toujours de DevWeb, de linux, d&#8217;opensource, mais je me suis dit, pourquoi ne pas élargir à mes coups de gueule, interrogations et humeurs, et qui sait un jour, de mes projets ! :D</p>
+
+<p>Les prochains billets seront certainement l&#8217;occasion pour moi d&#8217;essayer les différentes fonctionnalités de la plate-forme. En tout cas, merci d&#8217;être passé faire coucou, en espérant vous revoir venir ici régulièrement.</p>
+]]></content>
+  </entry>
+  
+</feed>
