@@ -2,42 +2,46 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures</loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>
             http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10
         </loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/un-peu-danimation-avec-jquery</loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/cybook-odyssey-de-bookeen</loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/bonne-resolution-2012</loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo</loc>
-        <lastmod>2012-06-01T10:19:05+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>
             http://bobmaerten.github.com/virtualbox-et-vagrant-le-duo-gagnant-pour-les-tests
         </loc>
-        <lastmod>2012-07-18T23:21:08+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bobmaerten.github.com/archives/</loc>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/blog/archives/</loc>
-        <lastmod>2012-07-18T23:21:08+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/</loc>
-        <lastmod>2012-07-18T23:21:08+02:00</lastmod>
+        <lastmod>2012-08-13T19:33:52+02:00</lastmod>
     </url>
 </urlset>
