@@ -32,7 +32,7 @@ ln -s Dropbox/dotfiles/fonts/ .fonts
 ```
 ## Mon usage de tmux
 Tmux me permet essentiellement de partager ma fenêtre de terminal en plusieurs onglet ou panels, et de gérér/surveiller/lancer plusieurs activités simultanées. Vous pouvez voir sur l'image ci-dessous une session tmux organisée en 3 panels : mon éditeur vim en haut en cours d'édition de ce billet, et deux autres en bas qui font tourner deux programmes, un serveur Webrick pour prévisualiser le billet, et un système de rechargement automatique de page web (guard-livereload).
-![Session Tmux](images/sessiontmux.png)
+![Session Tmux](/images/sessiontmux.png)
 Tmux permet également de travailler avec des onglets (appelés fenêtres dans le contexte). Des commandes clavier permettent bien entendu de passer d'une fenêtre ou d'un panel à un autre, de changer la disposition, de réorganiser, et même de scripter tout cela (exemple plus loin dans le billet). Je ne vais pas détailler tout cela ici, il faudrait plusieurs articles voire un site complet, par contre si la configuration de tmux vous intéresse, je ne saurais trop vous conseiller [l'excellent bouquin sur tmux](http://pragprog.com/book/bhtmux/tmux) de [Brian P. Hogan](http:/twitter.com/bphogan) disponible chez [The Pragmatic Bookshelf](http://pragprog.com) (une excellente source sur le développement logiciel au passage) qui fait le tour de l'outil pour pas bien cher.
 
 Vous pourrez bien entendu trouver pas mal de documentation sur le net, comme toujours pour ce genre d'outil bien répandu dans la communauté.
@@ -41,7 +41,7 @@ Un des gros problèmes auquel j'ai été confronté fut de résoudre le croiseme
 
 [Stackoverflow](http://stackoverflow.com/search?q=vim+tmux) a été d'une grande aide pour résoudre tout ces petits problèmes, bien sur jamais bloquants, mais quand même bien frustrants. Sachez si vous rencontrez le problème que l'option tmux "set-window-option -g xterm-keys on" est d'un grand secours ! ;)
 
-Si jamais, comme moi, vous vous servez des flêches de direction dans vim, voici les quelques lignes que j'ai du ajouter dans mon .vimrc afin que je puisse m'en servir sous tmux. Alors oui, je sais, il parait que les flèches dans vim c'est le mal ! Mais tout dépend de ce qu'on en fait :P
+Si jamais, comme moi, vous vous servez des flêches de direction dans vim, voici les quelques lignes que j'ai du ajouter dans mon .vimrc afin que je puisse m'en servir sous tmux. Alors oui, je sais, il parait que les flèches dans vim c'est le mal ! [Mais tout dépend de ce qu'on en fait](http://jeetworks.org/node/89) :P
 ```vim
 " Fix usage of arrows in tmux
 " http://superuser.com/questions/401926/how-to-get-shiftarrows-and-ctrlarrows-working-in-vim-in-tmux
@@ -75,7 +75,7 @@ J'ai ensuite ajouté un nouveau bind dans mon .tmux.conf
 bind-key R source-file ~/Dropbox/dotfiles/tmux/rails-dev-panes
 ```
 Ainsi, à la racine d'un projet rails, il me suffit de presser <Prefix>R pour me obtenir ceci. Pratique, hein ?
-![Session Rails](images/sessionrails.png)
+![Session Rails](/images/sessionrails.png)
 ## _There and back again_
 En bonus, voici deux directives de configuration tmux permettant d'agrandir un panel dans une fenêtre et inversement (avec <Prefix>+ et <Prefix>-).
 Cette configuiration me permet de passer temporairement d'un panel réduit (telle une zone de logs) à une fenêtre de la taille de mon terminal.
