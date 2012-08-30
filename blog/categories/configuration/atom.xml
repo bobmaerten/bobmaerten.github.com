@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Configuration | Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/configuration/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-08-30T13:17:13+02:00</updated>
+  <updated>2012-08-30T13:22:22+02:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -53,7 +53,7 @@ ln -s Dropbox/dotfiles/fonts/ .fonts
 <h2>Mon usage de tmux</h2>
 
 <p>Tmux me permet essentiellement de partager ma fenêtre de terminal en plusieurs onglet ou panels, et de gérér/surveiller/lancer plusieurs activités simultanées. Vous pouvez voir sur l'image ci-dessous une session tmux organisée en 3 panels : mon éditeur vim en haut en cours d'édition de ce billet, et deux autres en bas qui font tourner deux programmes, un serveur Webrick pour prévisualiser le billet, et un système de rechargement automatique de page web (guard-livereload).
-<img src="images/sessiontmux.png" alt="Session Tmux" />
+<img src="/images/sessiontmux.png" alt="Session Tmux" />
 Tmux permet également de travailler avec des onglets (appelés fenêtres dans le contexte). Des commandes clavier permettent bien entendu de passer d'une fenêtre ou d'un panel à un autre, de changer la disposition, de réorganiser, et même de scripter tout cela (exemple plus loin dans le billet). Je ne vais pas détailler tout cela ici, il faudrait plusieurs articles voire un site complet, par contre si la configuration de tmux vous intéresse, je ne saurais trop vous conseiller <a href="http://pragprog.com/book/bhtmux/tmux">l'excellent bouquin sur tmux</a> de <a href="http:/twitter.com/bphogan">Brian P. Hogan</a> disponible chez <a href="http://pragprog.com">The Pragmatic Bookshelf</a> (une excellente source sur le développement logiciel au passage) qui fait le tour de l'outil pour pas bien cher.</p>
 
 <p>Vous pourrez bien entendu trouver pas mal de documentation sur le net, comme toujours pour ce genre d'outil bien répandu dans la communauté.</p>
@@ -111,7 +111,7 @@ J'ai ensuite ajouté un nouveau bind dans mon .tmux.conf
 <p>bind-key R source-file ~/Dropbox/dotfiles/tmux/rails-dev-panes
 ```
 Ainsi, à la racine d'un projet rails, il me suffit de presser <Prefix>R pour me obtenir ceci. Pratique, hein ?
-<img src="images/sessionrails.png" alt="Session Rails" /></p>
+<img src="/images/sessionrails.png" alt="Session Rails" /></p>
 
 <h2><em>There and back again</em></h2>
 
