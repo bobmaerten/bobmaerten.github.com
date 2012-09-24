@@ -4,7 +4,7 @@
   <title><![CDATA[Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-08-30T15:04:33+02:00</updated>
+  <updated>2012-09-24T11:25:13+02:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Au delà de l'effet « Google my own stuff »]]></title>
+    <link href="http://bobmaerten.github.com/au-dela-de-leffet-google-my-own-stuff"/>
+    <updated>2012-09-24T09:45:00+02:00</updated>
+    <id>http://bobmaerten.github.com/au-dela-de-leffet-google-my-own-stuff</id>
+    <content type="html"><![CDATA[<p>Il est de nombreux jours où Google m&#8217;est vraiment utile pour mes recherches,
+très souvent même. Il y a également des jours où on ne trouve pas les bons
+mots-clés, ou que le sujet est tellement spécifique que le moteur de
+recherche nous n&#8217;est absolument d&#8217;aucune utilité.</p>
+
+<p>Il y a ces jours où Google aime se moquer. Ces jours où l&#8217;on a besoin d&#8217;un
+complément d&#8217;information à propos d&#8217;un sujet bien connu, mais sur lequel on
+bloque. Et, il se trouve parfois que l&#8217;on a déjà publié sur le sujet, et Google
+aime nous le rappeler. :-)</p>
+
+<p>On pourrait appeler ça l&#8217;effet « Google my own stuff ».</p>
+
+<p>Mais il y aussi ces moments où cela va un peu plus loin, de manière plus
+subtile. C&#8217;est ce qui m&#8217;est arrivé il y quelques jours. Je cherchais des
+informations sur l&#8217;utilisation de <a href="http://www.spotify.com">Spotify</a> via dbus.
+J&#8217;avais déjà <a href="http://blog.sledge.fr/post/2011/03/30/blacklisting-sur-spotify">blogué dans une vie antérieure sur le sujet</a>
+(et évidemment google s&#8217;est empressé de me le rappeler), mais je cherchais surtout
+si quelqu&#8217;un, entre temps, avait eu la bonne idée de développer une librairie
+ruby que je pourrais utiliser pour rapidement mettre en oeuvre une nouvelle
+idée.</p>
+
+<p>Assez naturellement, je tombe sur une <em>gem</em> appelée <a href="https://github.com/mikeycgto/spotify-dbus">spotify-dbus</a>
+(un nom idéal pour le référencement naturel en fait :P) et en lisant le
+<a href="https://github.com/mikeycgto/spotify-dbus#credits">README</a>, la section
+<em>Credits</em> renvoie sur <a href="https://gist.github.com/892428">un de mes propres gists</a> (de mon ancien compte github
+pour être exact) !</p>
+
+<p>Au final, je n&#8217;étais pas plus avancé, car il se trouve que cette librairie ne
+faisait pas plus que ce dont je parlais dans mon ancien post, mais la
+sérendipité iduite de cette découverte m&#8217;a bien scotché et au final empli d&#8217;une
+certaine fierté d&#8217;avoir contribué, sans le savoir certes, à la construction
+d&#8217;autre chose, d&#8217;avoir été acteur même sommairement plutôt que simple et
+habituel consomateur.</p>
+
+<p>Bref, il faudrait que je publie plus, et plus souvent.</p>
+
+<p>Et vous, ça vous est déjà arrivé ?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tmux+Vim Mega Combo]]></title>
