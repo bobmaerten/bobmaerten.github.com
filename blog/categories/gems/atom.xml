@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gems | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/gems/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2013-01-07T15:33:14+01:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Création et publication d'une gem ruby]]></title>
+    <link href="http://bobmaerten.github.com/creation-et-publication-dune-gem-ruby"/>
+    <updated>2012-09-26T18:03:00+02:00</updated>
+    <id>http://bobmaerten.github.com/creation-et-publication-dune-gem-ruby</id>
+    <content type="html"><![CDATA[<p>Cela faisait quelques temps que je voulais comprendre le fonctionnement d'une gem[1] ruby. Et quoi de mieux pour apprendre que d'essayer d'en contruire une !</p>
+
+<p>J'avais dans les cartons un script écrit en ruby un peu crade (tout dans un même fichier .rb) sur lequel je souhaitais faire un peu de <a href="http://fr.wikipedia.org/wiki/Refactorisation">refactoring</a>.</p>
+
+<p>En commençant à réorganiser mon code en classes et remplacer les valeurs brutes par des constantes, je me suis dit que cela ferai un excellent thème pour un prochain billet, mais il m'est revenu à l'esprit un article de chez mes amis rubyistes de chez <a href="http://www.synbioz.com/">Synbioz</a> appelé « <a href="http://www.synbioz.com/blog/2012/04/26/creer_son_gem_et_le_publier">creer son gem[1] et le publier</a> ».</p>
+
+<p>[1] personnellement je prefère gem au féminin, mais c'est un autre débat.</p>
+
+<p>Je ne pourrais clairement pas décrire mieux la facilité avec laquelle se déroule le processus de création et publication de gems qu'ils ne l'ont fait, alors franchement, allez lire leur billet. Mais pour les pressés :</p>
+
+<p>```bash TL;DR
+bundle gem <gem_name>
+cd <gem_name>
+vim <gem_name>.gemspec</p>
+
+<h1>Copier les fichiers de la gem dans ./lib</h1>
+
+<h1>et les éventuels executables dans ./bin</h1>
+
+<p>rake install
+rake release
+```</p>
+
+<p>Comme vous le constatez, ce n'est pas si compliqué, essentiellement du fait du fameux adage « Conventions over Configuration », mais également parce que les outils qui vont bien sont déjà sous la main.</p>
+
+<p>Pas étonnant que le site <a href="http://www.rubygems.org/">Rubygems</a> soit si fourni.</p>
+]]></content>
+  </entry>
+  
+</feed>

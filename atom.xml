@@ -4,7 +4,7 @@
   <title><![CDATA[Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-09-24T16:20:10+02:00</updated>
+  <updated>2013-01-07T15:33:14+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Petit bilan de l'aventure blog]]></title>
+    <link href="http://bobmaerten.github.com/petit-bilan-de-laventure-blog"/>
+    <updated>2013-01-07T14:30:00+01:00</updated>
+    <id>http://bobmaerten.github.com/petit-bilan-de-laventure-blog</id>
+    <content type="html"><![CDATA[<p>Voilà un peu plus d&#8217;un an que j&#8217;ai mis en place ce site, et comme régulièrement, je fais le même constat d&#8217;échec sur ma capacité à tenir à jour un blog comme j&#8217;aimerais le consulter si j&#8217;en étais le lecteur.</p>
+
+<p>8 posts en un an, y compris celui-ci, et rien depuis le mois de septembre, ce n&#8217;est pas glorieux. Bref, après plusieurs essais de la sorte, je ne peux que me rendre à l&#8217;évidence : le blog c&#8217;est clairement pas pour moi&#8230;</p>
+
+<p>Reste à trouver autre chose, plus à ma portée, moins dans une thématique liée à l&#8217;écriture de texte peut-être, ou carrément dans un autre projet qui sait. J&#8217;en ai franchement besoin, car au bureau c&#8217;est pas glorieux non plus.</p>
+
+<p>Ce site étant hébergé chez <a href="http://github.com">github</a> ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l&#8217;occasion d&#8217;y ajouter un lien vers ce nouveau quelque chose se présentait.</p>
+
+<p><em>See ya around, folks</em>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Création et publication d'une gem ruby]]></title>
+    <link href="http://bobmaerten.github.com/creation-et-publication-dune-gem-ruby"/>
+    <updated>2012-09-26T18:03:00+02:00</updated>
+    <id>http://bobmaerten.github.com/creation-et-publication-dune-gem-ruby</id>
+    <content type="html"><![CDATA[<p>Cela faisait quelques temps que je voulais comprendre le fonctionnement d&#8217;une gem[1] ruby. Et quoi de mieux pour apprendre que d&#8217;essayer d&#8217;en contruire une !</p>
+
+<p>J&#8217;avais dans les cartons un script écrit en ruby un peu crade (tout dans un même fichier .rb) sur lequel je souhaitais faire un peu de <a href="http://fr.wikipedia.org/wiki/Refactorisation">refactoring</a>.</p>
+
+<p>En commençant à réorganiser mon code en classes et remplacer les valeurs brutes par des constantes, je me suis dit que cela ferai un excellent thème pour un prochain billet, mais il m&#8217;est revenu à l&#8217;esprit un article de chez mes amis rubyistes de chez <a href="http://www.synbioz.com/">Synbioz</a> appelé « <a href="http://www.synbioz.com/blog/2012/04/26/creer_son_gem_et_le_publier">creer son gem[1] et le publier</a> ».</p>
+
+<p>[1] personnellement je prefère gem au féminin, mais c&#8217;est un autre débat.</p>
+
+<p>Je ne pourrais clairement pas décrire mieux la facilité avec laquelle se déroule le processus de création et publication de gems qu&#8217;ils ne l&#8217;ont fait, alors franchement, allez lire leur billet. Mais pour les pressés :</p>
+
+<figure class='code'><figcaption><span>TL;DR</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle gem &lt;gem_name&gt;
+</span><span class='line'><span class="nb">cd</span> &lt;gem_name&gt;
+</span><span class='line'>vim &lt;gem_name&gt;.gemspec
+</span><span class='line'><span class="c"># Copier les fichiers de la gem dans ./lib</span>
+</span><span class='line'><span class="c">#  et les éventuels executables dans ./bin</span>
+</span><span class='line'>rake install
+</span><span class='line'>rake release
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Comme vous le constatez, ce n&#8217;est pas si compliqué, essentiellement du fait du fameux adage « Conventions over Configuration », mais également parce que les outils qui vont bien sont déjà sous la main.</p>
+
+<p>Pas étonnant que le site <a href="http://www.rubygems.org/">Rubygems</a> soit si fourni.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Au delà de l'effet « Google my own stuff »]]></title>

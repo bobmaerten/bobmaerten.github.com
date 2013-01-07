@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2012-09-24T16:20:10+02:00</updated>
+  <updated>2013-01-07T15:33:14+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Petit bilan de l'aventure blog]]></title>
+    <link href="http://bobmaerten.github.com/petit-bilan-de-laventure-blog"/>
+    <updated>2013-01-07T14:30:00+01:00</updated>
+    <id>http://bobmaerten.github.com/petit-bilan-de-laventure-blog</id>
+    <content type="html"><![CDATA[<p>Voilà un peu plus d'un an que j'ai mis en place ce site, et comme régulièrement, je fais le même constat d'échec sur ma capacité à tenir à jour un blog comme j'aimerais le consulter si j'en étais le lecteur.</p>
+
+<p>8 posts en un an, y compris celui-ci, et rien depuis le mois de septembre, ce n'est pas glorieux. Bref, après plusieurs essais de la sorte, je ne peux que me rendre à l'évidence : le blog c'est clairement pas pour moi...</p>
+
+<p>Reste à trouver autre chose, plus à ma portée, moins dans une thématique liée à l'écriture de texte peut-être, ou carrément dans un autre projet qui sait. J'en ai franchement besoin, car au bureau c'est pas glorieux non plus.</p>
+
+<p>Ce site étant hébergé chez <a href="http://github.com">github</a> ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l'occasion d'y ajouter un lien vers ce nouveau quelque chose se présentait.</p>
+
+<p><em>See ya around, folks</em>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[C'est reparti pour de nouvelles aventures.]]></title>
