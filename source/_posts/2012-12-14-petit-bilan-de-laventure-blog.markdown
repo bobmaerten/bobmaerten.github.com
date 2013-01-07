@@ -11,6 +11,6 @@ Voilà un peu plus d'un an que j'ai mis en place ce site, et comme régulièreme
 
 Reste à trouver autre chose, plus à ma portée, moins dans une thématique liée à l'écriture de texte peut-être, ou carrément dans un autre projet qui sait. J'en ai franchement besoin, car au bureau c'est pas glorieux non plus.
 
-Ce site étant hébergé chez [github](http://github.com) ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l'occasion d'y ajouter un lien vers ce nouveau quelque chose se présentait.
+Ce site étant hébergé chez [github](http://github.com) et ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l'occasion d'y ajouter un lien vers ce nouveau quelque chose se présentait.
 
 *See ya around, folks*.
