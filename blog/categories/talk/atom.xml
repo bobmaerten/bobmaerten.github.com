@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Talk | Bob Maerten, le Blog]]></title>
+  <link href="http://bobmaerten.github.com/blog/categories/talk/atom.xml" rel="self"/>
+  <link href="http://bobmaerten.github.com/"/>
+  <updated>2013-02-20T10:43:50+01:00</updated>
+  <id>http://bobmaerten.github.com/</id>
+  <author>
+    <name><![CDATA[Bob Maerten]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Présentation de Vagrant à l'apéro-ruby Lille/Fev13]]></title>
+    <link href="http://bobmaerten.github.com/presentation-de-vagrant-a-lapero-ruby-lille-slash-fev13"/>
+    <updated>2013-02-20T10:22:00+01:00</updated>
+    <id>http://bobmaerten.github.com/presentation-de-vagrant-a-lapero-ruby-lille-slash-fev13</id>
+    <content type="html"><![CDATA[<p>J'ai eu l'occassion de parler un peu de mon usage de <a href="http://vagrantup.com">Vagrant</a> lors de l'apéro-ruby Lille de février 2013, aussi voici les quelques slides que j'ai présenté.</p>
+
+<p><script async="true" class="speakerdeck-embed" data-id="ae9492e05d5d013038ac12313916f0ac" src="//speakerdeck.com/assets/embed.js"> </script></p>
+
+<p>Speakerdeck ne permettant apparemment pas de cliquer sur les liens fournis dans la présentation, voici <a href="/images/vagrant-101.pdf">la version PDF de ces slides</a>.</p>
+
+<p>Évidemment cela n'inclut pas les questions/discussions qui s'en sont suivies, donc si vous avez des questions, n'hésitez pas à les poser dans les commentaires ou directement par mail.</p>
+]]></content>
+  </entry>
+  
+</feed>

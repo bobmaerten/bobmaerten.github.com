@@ -4,7 +4,7 @@
   <title><![CDATA[Bob Maerten, le Blog]]></title>
   <link href="http://bobmaerten.github.com/atom.xml" rel="self"/>
   <link href="http://bobmaerten.github.com/"/>
-  <updated>2013-01-07T15:33:14+01:00</updated>
+  <updated>2013-02-20T10:43:50+01:00</updated>
   <id>http://bobmaerten.github.com/</id>
   <author>
     <name><![CDATA[Bob Maerten]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Présentation de Vagrant à l'apéro-ruby Lille/Fev13]]></title>
+    <link href="http://bobmaerten.github.com/presentation-de-vagrant-a-lapero-ruby-lille-slash-fev13"/>
+    <updated>2013-02-20T10:22:00+01:00</updated>
+    <id>http://bobmaerten.github.com/presentation-de-vagrant-a-lapero-ruby-lille-slash-fev13</id>
+    <content type="html"><![CDATA[<p>J&#8217;ai eu l&#8217;occassion de parler un peu de mon usage de <a href="http://vagrantup.com">Vagrant</a> lors de l&#8217;apéro-ruby Lille de février 2013, aussi voici les quelques slides que j&#8217;ai présenté.</p>
+
+<script async="true" class="speakerdeck-embed" data-id="ae9492e05d5d013038ac12313916f0ac" src="http://bobmaerten.github.com//speakerdeck.com/assets/embed.js"> </script>
+
+
+<p>Speakerdeck ne permettant apparemment pas de cliquer sur les liens fournis dans la présentation, voici <a href="http://bobmaerten.github.com/images/vagrant-101.pdf">la version PDF de ces slides</a>.</p>
+
+<p>Évidemment cela n&#8217;inclut pas les questions/discussions qui s&#8217;en sont suivies, donc si vous avez des questions, n&#8217;hésitez pas à les poser dans les commentaires ou directement par mail.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Petit bilan de l'aventure blog]]></title>
@@ -24,7 +40,7 @@
 
 <p>Reste à trouver autre chose, plus à ma portée, moins dans une thématique liée à l&#8217;écriture de texte peut-être, ou carrément dans un autre projet qui sait. J&#8217;en ai franchement besoin, car au bureau c&#8217;est pas glorieux non plus.</p>
 
-<p>Ce site étant hébergé chez <a href="http://github.com">github</a> ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l&#8217;occasion d&#8217;y ajouter un lien vers ce nouveau quelque chose se présentait.</p>
+<p>Ce site étant hébergé chez <a href="http://github.com">github</a> et ne me « coutant » rien, reste en place évidemment, ne serait-ce que pour les éventuelles références qui pourraient pointer dessus, et si bien sûr l&#8217;occasion d&#8217;y ajouter un lien vers ce nouveau quelque chose se présentait.</p>
 
 <p><em>See ya around, folks</em>.</p>
 ]]></content>

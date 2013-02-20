@@ -2,62 +2,68 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://bobmaerten.github.com/cest-reparti-pour-de-nouvelles-aventures</loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://bobmaerten.github.com/environnement-de-developpment-rails-sous-ubuntu-11-dot-10
         </loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/un-peu-danimation-avec-jquery</loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/cybook-odyssey-de-bookeen</loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/bonne-resolution-2012</loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/bilan-de-2-semaines-de-bepo</loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://bobmaerten.github.com/virtualbox-et-vagrant-le-duo-gagnant-pour-les-tests
         </loc>
-        <lastmod>2012-08-13T18:32:07+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/tmux-plus-vim-mega-combo</loc>
-        <lastmod>2012-08-30T15:02:58+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/au-dela-de-leffet-google-my-own-stuff</loc>
-        <lastmod>2012-09-24T16:19:47+02:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/creation-et-publication-dune-gem-ruby</loc>
-        <lastmod>2013-01-07T14:57:42+01:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/petit-bilan-de-laventure-blog</loc>
-        <lastmod>2013-01-07T14:37:32+01:00</lastmod>
+        <lastmod>2013-01-09T11:59:57+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://bobmaerten.github.com/presentation-de-vagrant-a-lapero-ruby-lille-slash-fev13
+        </loc>
+        <lastmod>2013-02-20T10:42:54+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/archives/</loc>
-        <lastmod>2013-01-07T14:57:42+01:00</lastmod>
+        <lastmod>2013-02-20T10:42:54+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/</loc>
-        <lastmod>2013-01-07T14:57:42+01:00</lastmod>
+        <lastmod>2013-02-20T10:42:54+01:00</lastmod>
     </url>
     <url>
         <loc>http://bobmaerten.github.com/blog/archives/</loc>
-        <lastmod>2013-01-07T14:57:42+01:00</lastmod>
+        <lastmod>2013-02-20T10:42:54+01:00</lastmod>
     </url>
 </urlset>
